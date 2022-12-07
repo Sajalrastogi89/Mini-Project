@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body {
+    background-color: #726969;
+}
+
+#bg-image {
+
+    height: 100vh;
+   
+}
+
+
+
+#bg-image div {
+
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 2s linear;
+    z-index: 1;
+}
+
+#bg-image div:nth-child(1) {
+    background: #000000;
+   
+
+}
+
+#bg-image div:nth-child(2) {
+    background-image: linear-gradient(to bottom, #020111 85%, #191621 100%);
+
+}
+
+#bg-image div:nth-child(3) {
+    background-image: linear-gradient(to bottom, #020111 60%, #20202c 100%);
+
+}
+
+#bg-image div:nth-child(4) {
+    background-image: linear-gradient(to bottom, #020111 10%, #3a3a52 100%);
+
+}
+
+#bg-image div:nth-child(5) {
+    background-image: linear-gradient(to bottom, #20202c 0%, #515175 100%);
+
+}
+
+#bg-image div:nth-child(6) {
+    background-image: linear-gradient(to bottom, #40405c 0%, #6f71aa 80%, #8a76ab 100%);
+
+}
+
+#bg-image div:nth-child(7) {
+    background-image: linear-gradient(to bottom, #4a4969 0%, #7072ab 50%, #cd82a0 100%);
+
+}
+
+#bg-image div:nth-child(8) {
+    background-image: linear-gradient(to bottom, #757abf 0%, #8583be 60%, #eab0d1 100%);
+
+}
+
+#bg-image div:nth-child(9) {
+    background-image: linear-gradient(to bottom, #82addb 0%, #ebb2b1 100%);
+
+}
+
+#bg-image div:nth-child(10) {
+    background-image: linear-gradient(to bottom, #94c5f8 1%, #a6e6ff 70%, #b1b5ea 100%);
+
+}
+
+#bg-image div:nth-child(11) {
+    background-image: linear-gradient(to bottom, #b7eaff 0%, #94dfff 100%);
+
+}
+
+#bg-image div:nth-child(12) {
+    background-image: linear-gradient(to bottom, #9be2fe 0%, #67d1fb 100%);
+
+}
+
+#bg-image div:nth-child(13) {
+    background-image: linear-gradient(to bottom, #90dffe 0%, #38a3d1 100%);
+
+}
+
+#bg-image div:nth-child(14) {
+    background-image: linear-gradient(to bottom, #57c1eb 0%, #246fa8 100%);
+
+}
+
+#bg-image div:nth-child(15) {
+    background-image: linear-gradient(to bottom, #2d91c2 0%, #1e528e 100%);
+
+}
+
+#bg-image div:nth-child(16) {
+    background-image: linear-gradient(to bottom, #2473ab 0%, #1e528e 70%, #5b7983 100%);
+
+}
+
+#bg-image div:nth-child(17) {
+    background-image: linear-gradient(to bottom, #1e528e 0%, #265889 50%, #9da671 100%);
+
+}
+
+#bg-image div:nth-child(18) {
+    background-image: linear-gradient(to bottom, #1e528e 0%, #728a7c 50%, #e9ce5d 100%);
+
+}
+
+#bg-image div:nth-child(19) {
+    background-image: linear-gradient(to bottom, #154277 0%, #576e71 30%, #e1c45e 70%, #b26339 100%);
+
+}
+
+#bg-image div:nth-child(20) {
+    background-image: linear-gradient(to bottom, #163C52 0%, #4F4F47 30%, #C5752D 60%, #B7490F 80%, #2F1107 100%);
+
+}
+
+#bg-image div:nth-child(21) {
+    background-image: linear-gradient(to bottom, #071B26 0%, #071B26 30%, #8A3B12 80%, #240E03 100%);
+
+}
+
+#bg-image div:nth-child(22) {
+    background-image: linear-gradient(to bottom, #010A10 30%, #59230B 80%, #2F1107 100%);
+
+}
+
+#bg-image div:nth-child(23) {
+    background-image: linear-gradient(to bottom, #090401 50%, #4B1D06 100%);
+
+}
+
+#bg-image div:nth-child(24) {
+    background-image: linear-gradient(to bottom, #00000c 80%, #150800 100%);
+
+}
+#front {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 5vw;
+   height: 90vh;
+    width: 90vw;
+    margin: 5vh auto;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+table,
+th,
+td {
+    border: 0.5vh solid black;
+    width: 40vw;
+    height: 3vh;
+    text-align: center;
+    border-collapse: collapse;
+
+
+}
+
+#first {
+    color: white;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5vw;
+}
+
+.image img {
+    height: 12vh;
+    width: 10vw;
+}
+
+
+button {
+
+
+    font-size: 2vw;
+    cursor: pointer;
+    text-align: center;
+
+
+
+color: inherit;
+    background-color: #4CAF50;
+    border-radius: 2.5vw;
+    box-shadow: 0 0.8vh #999;
+    height: 5vh;
+    width: 10vw;
+}
+
+button:hover {
+    background-color: #3e8e41
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 0.1vh #666;
+    transform: translateY(0.95vh);
+}
+
+.button {
+  
+    justify-content: space-evenly;
+}
+#result-content{
+  position: absolute;
+  top: 0;
+  left: 5vw;
+  height: 90vh;
+  width: 90vw;
+ 
+  z-index: 5;
+margin: 5vh auto;
+
+}
+span{
+
+    position: absolute;
+   font-size: 3vw;
+   font-style: italic;
+   font-weight: 900;
+display: none;
+padding-left: 42vw;
+padding-top: 38vh;
+
+ 
+}
+#button{
+    position: absolute;
+    bottom: 8vh;
+    right: 7vw;
+    z-index: 20;
+  }
+  #button img{
+
+  height: 10vh;
+  width: auto;
+
+  }
+
+
+@media(max-width:414px){
+  
+   #first{
+    font-size: 2vw;
+   }
+  
+  
+}

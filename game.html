@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stone,Paper,Scissor</title>
+  <link rel="icon" href="./img/hand-scissors-solid.svg">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+  <div id="first">
+    <div id="bg-image">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div id="front">
+      <div class="header">
+        <h1>You</h1>
+        <div><img src="./img/icons8-down-arrow-48.png" alt=""></div>
+        <table>
+          <tr>
+            <th>you</th>
+            <th>Computer</th>
+          </tr>
+          <tr>
+            <td id="item-1">0</td>
+            <td id="item-2">0</td>
+          </tr>
+
+
+
+        </table>
+        <div><img src="./img/icons8-down-arrow-48.png" alt=""></div>
+        <h1>Computer</h1>
+      </div>
+      <!-- first set of photos -->
+      <div class="image">
+        <img src="./img/Scissor.jpg" alt="Scissor" id="scissor1">
+        <img src="./img/Scissor.jpg" alt="Scissor" id="scissor2">
+      </div>
+
+      <!-- second set of photos -->
+      <div class="image">
+        <img src="./img/Rock.png" alt="" id="stone1">
+
+        <img src="./img/Rock.png" alt="" id="stone2">
+      </div>
+      <!-- third set of photos -->
+      <div class="image">
+        <img src="./img/Paper.jpg" alt="" id="paper1">
+        <img src="./img/Paper.jpg" alt="" id="paper2">
+      </div>
+      <!-- for buttons -->
+      <div class="image button">
+        <button type="button" onclick="location.reload()" id="button0">Restart</button>
+        <button type="button" onclick="Stone()" id="button1">Stone</button>
+        <button type="button" onclick="Paper()" id="button2">Paper</button>
+        <button type="button" onclick="Scissor()" id="button3">Scissor</button>
+        <button type="button" onclick="defaultLocation()" id="button4">Next</button>
+      </div>
+
+    </div>
+    <div id="result-content">
+      <span id="congrats">Congratulations</span>
+      <span id="lost">You Lost</span>
+      <span id="won">You Won</span>
+      <span id="draw">Draw</span>
+      <span id="sorry">Game Over</span>
+    </div>
+  </div>
+
+  <div id="button">
+    <a href="./Quote.html"><img src="./img/Rocket.png" alt="game"></a>
+</div>
+
+
+  <script src="./JS/game.js"></script>
+</body>
+
+</html>
